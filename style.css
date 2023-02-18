@@ -359,6 +359,30 @@ form .btn2 {
   cursor: pointer;
 }
 
+.up-arrow {
+  position: relative;
+  margin: 30px 0;
+}
+
+.up-arrow a {
+  text-decoration: none;
+}
+
+.up-arrow i {
+  position: absolute;
+  right: 45px;
+  bottom: 20px;
+  color: #f8f8f8;
+  font-size: 30px;
+  transition: font-size 0.3s;
+}
+
+.up-arrow i:hover {
+  color: #ff004f;
+  font-size: 35px;
+  cursor: pointer;
+}
+
 .copyright {
   width: 100%;
   text-align: center;
@@ -445,6 +469,16 @@ nav .fas {
   .contact-left,
   .contact-right {
     flex-basis: 100%;
+  }
+
+  .up-arrow i {
+    right: 35px;
+    bottom: 0;
+    font-size: 22px;
+  }
+
+  .up-arrow i:hover {
+    font-size: 27px;
   }
 
   .copyright {
